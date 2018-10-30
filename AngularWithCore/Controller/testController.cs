@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ namespace AngularWithCore.Controllers
         [HttpGet("/api/values")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "a", "b", "c", "d" };
+            return new string[] { "a", "b", "c", "d","e" };
         }
     }
 }
