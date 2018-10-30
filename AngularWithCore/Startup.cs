@@ -40,6 +40,10 @@ namespace AngularWithCore
                     await next();
                 }
             });
+            app.UseMvcWithDefaultRoute();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
         }
     }
 }
