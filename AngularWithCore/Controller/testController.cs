@@ -12,7 +12,7 @@ namespace AngularWithCore.Controllers
         [HttpGet("/api/values")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "a", "b", "c", "d","e" };
+            return new string[] { "1", "2", "3", "4","5" };
         }
     }
 }
